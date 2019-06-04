@@ -2,6 +2,8 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+const pingUrl = `${process.env.BACKEND_SERVER || 'http://localhost:8080'}/ping`;
+
 function App() {
   return (
     <div className="App">
@@ -13,7 +15,7 @@ function App() {
 
         <a
           className="App-link"
-          href={`http://localhost:8080/ping`}
+          href={`${pingUrl}`}
           target="_blank"
           rel="noopener noreferrer"
         >
