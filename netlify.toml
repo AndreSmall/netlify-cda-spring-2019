@@ -14,4 +14,4 @@
 # deploy contexts will inherit these settings.
 [context.master.environment]
   # environment variables
-  BACKEND_SERVER = "https://hidden-stream-53426.herokuapp.com/"
+  REACT_APP_BACKEND_SERVER = "https://hidden-stream-53426.herokuapp.com/"

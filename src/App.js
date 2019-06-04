@@ -2,7 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-const pingUrl = `${process.env.BACKEND_SERVER || 'http://localhost:8080'}/ping`;
+const pingUrl = `${process.env.REACT_APP_BACKEND_SERVER || 'http://localhost:8080'}/ping`;
 
 function App() {
   return (
