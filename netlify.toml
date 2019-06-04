@@ -12,6 +12,6 @@
 
 # Production context: all deploys from the Production branch set in your site's 
 # deploy contexts will inherit these settings.
-[context.master]
+[context.production]
   # environment variables
   environment = { BACKEND_SERVER = "https://hidden-stream-53426.herokuapp.com/" }
